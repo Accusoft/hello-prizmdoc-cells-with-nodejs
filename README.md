@@ -55,7 +55,7 @@ You should see output like this:
 ```
 > node index.js
 
-[HPM] Proxy created: /cells-server-proxy  ->  https://api.accusoft.com/cells
+[HPM] Proxy created: /cells-server-proxy/clientControl  ->  https://api.accusoft.com/cells
 [HPM] Proxy rewrite rule created: "^/cells-server-proxy" ~> ""
 [HPM] Subscribed to http-proxy events:  [ 'error', 'close' ]
 Application running at http://localhost:8888
