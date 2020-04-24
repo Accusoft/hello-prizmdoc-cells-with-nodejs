@@ -17,12 +17,9 @@
     <!-- Create a WorkbookControl inside of the "workbookContainer" div, initialized with a sessionId -->
     <script type="text/javascript">
       window.onload = function () {
-        const workbookControl = new Accusoft.WorkbookControl({
+        Accusoft.WorkbookControl.create({
           baseUrl: 'cells-server-proxy',
-          sessionId: "{{sessionId}}"
-        });
-
-        workbookControl.embed({
+          sessionId: "{{sessionId}}",
           container: document.getElementById('workbook-container')
         });
       };
