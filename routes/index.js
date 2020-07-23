@@ -27,7 +27,6 @@ router.get('/', async (req, res /*, next*/) => {
     json: {
       workbookId: body.workbookId,
       user: {
-        uniqueId: 'some-test-user',
         displayName: 'Test User',
         initials: 'TU'
       }
